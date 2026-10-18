@@ -11,14 +11,16 @@ export const App = () => {
 
     const onLeaveFeedback = option => {
     switch (option) {
-        case "good":
+          case "good":
             setGood(prev => prev + 1)
             break;
-        case "neutral":
+          case "neutral":
             setNeutral(prev => prev + 1)
             break;
-        case "bad":
+          case "bad":
             setBad(prev => prev + 1)
+            break;
+          default:
             break;
         }
     }
