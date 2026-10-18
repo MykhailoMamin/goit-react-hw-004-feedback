@@ -1,0 +1,23 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 280px;
+    background-color: #f5f7fa;
+    border-radius: 8px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.value {
+    font-weight: 600;
+    color: #007bff;
+}
